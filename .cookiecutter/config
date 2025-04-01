@@ -1,0 +1,5 @@
+# Change these at your peril:
+export PROJECT_NAME=asf_next_three_million_heat_pump_owners
+export REPO_NAME=asf_next_three_million_heat_pump_owners
+export DESCRIPTION=A repo to manage data cleaning and analysis related to the survey conducted by YouGov for the geodemographic segmentation project “Identifying the next 3 million heat pump owners”.
+export PROJECT_OPENNESS=public
