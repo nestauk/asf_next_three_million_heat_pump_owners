@@ -1,0 +1,788 @@
+code_question_lookup:
+  Consent_1:
+    Thanks for agreeing to share this information.Please provide your Postcode
+    in the box below.
+  PEN_Bedrooms: How many bedrooms does your home have in total?
+  PEN_CurrentHeatingsystem_new: How old is your current central heating system?
+  PEN_EPCawareness:
+    EPC (Energy Performance Certificate) is a rating scheme that summarises
+    the energy efficiency of homes, commercial and industrial properties... It uses
+    a scale from 'A' (Very efficient) to 'G' (Inefficient) and the higher the rating,
+    the more energy efficient your home is...  Before taking this survey, had you
+    ever heard of EPC?
+  PEN_EPCgradenew:
+    To the best of your knowledge, what is the current EPC grade of
+    your home?
+  PEN_Floorsize_AB:
+    Approximately, how large is the floor space in your home? (Please
+    type your answer in square metres in the box below. If you are unsure, please
+    give your best estimate)
+  PEN_Heating:
+    Still thinking about heating your home...  Approximately, for how long
+    have you been using your current heating system?
+  PEN_PropertyAge:
+    Thinking about your home (i.e. your main place of residence)...  Which
+    of the following best describes the age of your house (i.e. when it was built)?
+  PEN_Q1: Does your home have a gas meter for 'mains gas'?
+  PEN_Q10new_1:
+    "Which, if any, of the following have you ever had an online or in
+    person quote/ estimate for? (Please select all that apply): Heat pump"
+  PEN_Q10new_2:
+    "Which, if any, of the following have you ever had an online or in
+    person quote/ estimate for? (Please select all that apply): Solar panels"
+  PEN_Q10new_3:
+    "Which, if any, of the following have you ever had an online or in
+    person quote/ estimate for? (Please select all that apply): EV charger"
+  PEN_Q10new_966:
+    "Which, if any, of the following have you ever had an online or
+    in person quote/ estimate for? (Please select all that apply): None of these"
+  PEN_Q10new_977:
+    "Which, if any, of the following have you ever had an online or
+    in person quote/ estimate for? (Please select all that apply): Don't know/ can't
+    recall"
+  PEN_Q10new_collapsed:
+    Which, if any, of the following have you ever had an online
+    or in person quote/ estimate for? (Please select all that apply)
+  PEN_Q11_1:
+    'Which, if any, of the following factors do you think would prevent you
+    from installing a heat pump in your home? (Please select all that apply. If there
+    is no specific barrier towards installing a heat pump in your home, please select
+    the "Not applicable" option): Too expensive to install'
+  PEN_Q11_10:
+    'Which, if any, of the following factors do you think would prevent
+    you from installing a heat pump in your home? (Please select all that apply. If
+    there is no specific barrier towards installing a heat pump in your home, please
+    select the "Not applicable" option): I''m not the decision-maker about energy
+    in my household'
+  PEN_Q11_11:
+    'Which, if any, of the following factors do you think would prevent
+    you from installing a heat pump in your home? (Please select all that apply. If
+    there is no specific barrier towards installing a heat pump in your home, please
+    select the "Not applicable" option): Others in my household would need to be convinced'
+  PEN_Q11_12:
+    'Which, if any, of the following factors do you think would prevent
+    you from installing a heat pump in your home? (Please select all that apply. If
+    there is no specific barrier towards installing a heat pump in your home, please
+    select the "Not applicable" option): I am happy with my current heating system
+    and don''t see any reason to change it'
+  PEN_Q11_13:
+    'Which, if any, of the following factors do you think would prevent
+    you from installing a heat pump in your home? (Please select all that apply. If
+    there is no specific barrier towards installing a heat pump in your home, please
+    select the "Not applicable" option): I am planning to move home in the near future'
+  PEN_Q11_14:
+    'Which, if any, of the following factors do you think would prevent
+    you from installing a heat pump in your home? (Please select all that apply. If
+    there is no specific barrier towards installing a heat pump in your home, please
+    select the "Not applicable" option): I will stick with my current system until
+    it needs replacing'
+  PEN_Q11_15:
+    'Which, if any, of the following factors do you think would prevent
+    you from installing a heat pump in your home? (Please select all that apply. If
+    there is no specific barrier towards installing a heat pump in your home, please
+    select the "Not applicable" option): I don''t think it makes financial sense as
+    an investment'
+  PEN_Q11_2:
+    'Which, if any, of the following factors do you think would prevent you
+    from installing a heat pump in your home? (Please select all that apply. If there
+    is no specific barrier towards installing a heat pump in your home, please select
+    the "Not applicable" option): Not convinced that the technology is good enough
+    to heat my home'
+  PEN_Q11_3:
+    'Which, if any, of the following factors do you think would prevent you
+    from installing a heat pump in your home? (Please select all that apply. If there
+    is no specific barrier towards installing a heat pump in your home, please select
+    the "Not applicable" option): Wouldn''t be appropriate for my property'
+  PEN_Q11_4:
+    'Which, if any, of the following factors do you think would prevent you
+    from installing a heat pump in your home? (Please select all that apply. If there
+    is no specific barrier towards installing a heat pump in your home, please select
+    the "Not applicable" option): I worry I may end up paying more for my energy bills'
+  PEN_Q11_5:
+    'Which, if any, of the following factors do you think would prevent you
+    from installing a heat pump in your home? (Please select all that apply. If there
+    is no specific barrier towards installing a heat pump in your home, please select
+    the "Not applicable" option): Difficulty finding a trader I trust to install it'
+  PEN_Q11_6:
+    'Which, if any, of the following factors do you think would prevent you
+    from installing a heat pump in your home? (Please select all that apply. If there
+    is no specific barrier towards installing a heat pump in your home, please select
+    the "Not applicable" option): I don''t have enough information to make an informed
+    decision'
+  PEN_Q11_7:
+    'Which, if any, of the following factors do you think would prevent you
+    from installing a heat pump in your home? (Please select all that apply. If there
+    is no specific barrier towards installing a heat pump in your home, please select
+    the "Not applicable" option): Too much hassle to research and find an installer'
+  PEN_Q11_8:
+    'Which, if any, of the following factors do you think would prevent you
+    from installing a heat pump in your home? (Please select all that apply. If there
+    is no specific barrier towards installing a heat pump in your home, please select
+    the "Not applicable" option): Too much disruption to my home'
+  PEN_Q11_9:
+    'Which, if any, of the following factors do you think would prevent you
+    from installing a heat pump in your home? (Please select all that apply. If there
+    is no specific barrier towards installing a heat pump in your home, please select
+    the "Not applicable" option): Planning permission'
+  PEN_Q11_944:
+    'Which, if any, of the following factors do you think would prevent
+    you from installing a heat pump in your home? (Please select all that apply. If
+    there is no specific barrier towards installing a heat pump in your home, please
+    select the "Not applicable" option): Not applicable - There is no specific barrier
+    towards installing a heat pump in my home'
+  PEN_Q11_977:
+    'Which, if any, of the following factors do you think would prevent
+    you from installing a heat pump in your home? (Please select all that apply. If
+    there is no specific barrier towards installing a heat pump in your home, please
+    select the "Not applicable" option): Don''t know'
+  PEN_Q11_collapsed:
+    Which, if any, of the following factors do you think would prevent
+    you from installing a heat pump in your home? (Please select all that apply. If
+    there is no specific barrier towards installing a heat pump in your home, please
+    select the "Not applicable" option)
+  PEN_Q12:
+    Which ONE of the following factors do you think would prevent you the MOST
+    from installing a heat pump in your home?
+  PEN_Q13_1:
+    'Which, if any, of the following benefits about heat pumps is likely
+    to encourage you to install a heat pump in your home in the future? (Please select
+    all that apply. If you would never get a heat pump installed in your home, please
+    select the "Not applicable" option): It can help lower household energy bills'
+  PEN_Q13_2:
+    'Which, if any, of the following benefits about heat pumps is likely
+    to encourage you to install a heat pump in your home in the future? (Please select
+    all that apply. If you would never get a heat pump installed in your home, please
+    select the "Not applicable" option): It''s more environmentally friendly and sustainable
+    than traditional heating systems'
+  PEN_Q13_3:
+    'Which, if any, of the following benefits about heat pumps is likely
+    to encourage you to install a heat pump in your home in the future? (Please select
+    all that apply. If you would never get a heat pump installed in your home, please
+    select the "Not applicable" option): To future proof my home as it will be one
+    of the main ways people heat their home in the future'
+  PEN_Q13_4:
+    'Which, if any, of the following benefits about heat pumps is likely
+    to encourage you to install a heat pump in your home in the future? (Please select
+    all that apply. If you would never get a heat pump installed in your home, please
+    select the "Not applicable" option): It has a long lifespan and needs little maintenance'
+  PEN_Q13_5:
+    'Which, if any, of the following benefits about heat pumps is likely
+    to encourage you to install a heat pump in your home in the future? (Please select
+    all that apply. If you would never get a heat pump installed in your home, please
+    select the "Not applicable" option): It would heat my home better/more reliably
+    than my current system'
+  PEN_Q13_6:
+    'Which, if any, of the following benefits about heat pumps is likely
+    to encourage you to install a heat pump in your home in the future? (Please select
+    all that apply. If you would never get a heat pump installed in your home, please
+    select the "Not applicable" option): Independence from gas/oil/solid fuel'
+  PEN_Q13_7:
+    'Which, if any, of the following benefits about heat pumps is likely
+    to encourage you to install a heat pump in your home in the future? (Please select
+    all that apply. If you would never get a heat pump installed in your home, please
+    select the "Not applicable" option): Other people I know are doing it and I don''t
+    want to get left behind'
+  PEN_Q13_8:
+    'Which, if any, of the following benefits about heat pumps is likely
+    to encourage you to install a heat pump in your home in the future? (Please select
+    all that apply. If you would never get a heat pump installed in your home, please
+    select the "Not applicable" option): To use the electricity  generated by solar
+    panels'
+  PEN_Q13_944:
+    'Which, if any, of the following benefits about heat pumps is likely
+    to encourage you to install a heat pump in your home in the future? (Please select
+    all that apply. If you would never get a heat pump installed in your home, please
+    select the "Not applicable" option): Not applicable - I would never get a heat
+    pump installed in my home'
+  PEN_Q13_977:
+    'Which, if any, of the following benefits about heat pumps is likely
+    to encourage you to install a heat pump in your home in the future? (Please select
+    all that apply. If you would never get a heat pump installed in your home, please
+    select the "Not applicable" option): Don''t know'
+  PEN_Q13_collapsed:
+    Which, if any, of the following benefits about heat pumps is
+    likely to encourage you to install a heat pump in your home in the future? (Please
+    select all that apply. If you would never get a heat pump installed in your home,
+    please select the "Not applicable" option)
+  PEN_Q14:
+    Which ONE of the following benefits about heat pumps is MOST likely to
+    encourage you to install a heat pump in your home in the future?
+  PEN_Q15_1:
+    "For the following question, please imagine that you find out that your
+    boiler will stop working in a year...  Which, if any, of the following sources
+    would you consult in order to figure out what you should do? (Please select all
+    that apply. If you would not consult any sources, please select the 'Not applicable'
+    option): Household members"
+  PEN_Q15_1_recoded:
+    "For the following question, please imagine that you find out
+    that your boiler will stop working in a year...  Which, if any, of the following
+    sources would you consult in order to figure out what you should do? (Please select
+    all that apply. If you would not consult any sources, please select the 'Not
+    applicable' option): Household members"
+  PEN_Q15_2:
+    "For the following question, please imagine that you find out that your
+    boiler will stop working in a year...  Which, if any, of the following sources
+    would you consult in order to figure out what you should do? (Please select all
+    that apply. If you would not consult any sources, please select the 'Not applicable'
+    option): Wider family"
+  PEN_Q15_2_recoded:
+    "For the following question, please imagine that you find out
+    that your boiler will stop working in a year...  Which, if any, of the following
+    sources would you consult in order to figure out what you should do? (Please select
+    all that apply. If you would not consult any sources, please select the 'Not
+    applicable' option): Wider family"
+  PEN_Q15_3:
+    "For the following question, please imagine that you find out that your
+    boiler will stop working in a year...  Which, if any, of the following sources
+    would you consult in order to figure out what you should do? (Please select all
+    that apply. If you would not consult any sources, please select the 'Not applicable'
+    option): Friends"
+  PEN_Q15_3_recoded:
+    "For the following question, please imagine that you find out
+    that your boiler will stop working in a year...  Which, if any, of the following
+    sources would you consult in order to figure out what you should do? (Please select
+    all that apply. If you would not consult any sources, please select the 'Not
+    applicable' option): Friends"
+  PEN_Q15_4:
+    "For the following question, please imagine that you find out that your
+    boiler will stop working in a year...  Which, if any, of the following sources
+    would you consult in order to figure out what you should do? (Please select all
+    that apply. If you would not consult any sources, please select the 'Not applicable'
+    option): Boiler engineer"
+  PEN_Q15_4_recoded:
+    "For the following question, please imagine that you find out
+    that your boiler will stop working in a year...  Which, if any, of the following
+    sources would you consult in order to figure out what you should do? (Please select
+    all that apply. If you would not consult any sources, please select the 'Not
+    applicable' option): Boiler engineer"
+  PEN_Q15_5:
+    "For the following question, please imagine that you find out that your
+    boiler will stop working in a year...  Which, if any, of the following sources
+    would you consult in order to figure out what you should do? (Please select all
+    that apply. If you would not consult any sources, please select the 'Not applicable'
+    option): Social media"
+  PEN_Q15_5_recoded:
+    "For the following question, please imagine that you find out
+    that your boiler will stop working in a year...  Which, if any, of the following
+    sources would you consult in order to figure out what you should do? (Please select
+    all that apply. If you would not consult any sources, please select the 'Not
+    applicable' option): Social media"
+  PEN_Q15_6:
+    "For the following question, please imagine that you find out that your
+    boiler will stop working in a year...  Which, if any, of the following sources
+    would you consult in order to figure out what you should do? (Please select all
+    that apply. If you would not consult any sources, please select the 'Not applicable'
+    option): Energy company"
+  PEN_Q15_6_recoded:
+    "For the following question, please imagine that you find out
+    that your boiler will stop working in a year...  Which, if any, of the following
+    sources would you consult in order to figure out what you should do? (Please select
+    all that apply. If you would not consult any sources, please select the 'Not
+    applicable' option): Energy company"
+  PEN_Q15_7:
+    "For the following question, please imagine that you find out that your
+    boiler will stop working in a year...  Which, if any, of the following sources
+    would you consult in order to figure out what you should do? (Please select all
+    that apply. If you would not consult any sources, please select the 'Not applicable'
+    option): Internet searches"
+  PEN_Q15_7_recoded:
+    "For the following question, please imagine that you find out
+    that your boiler will stop working in a year...  Which, if any, of the following
+    sources would you consult in order to figure out what you should do? (Please select
+    all that apply. If you would not consult any sources, please select the 'Not
+    applicable' option): Internet searches"
+  PEN_Q15_8:
+    "For the following question, please imagine that you find out that your
+    boiler will stop working in a year...  Which, if any, of the following sources
+    would you consult in order to figure out what you should do? (Please select all
+    that apply. If you would not consult any sources, please select the 'Not applicable'
+    option): AI/ ChatGPT"
+  PEN_Q15_8_recoded:
+    "For the following question, please imagine that you find out
+    that your boiler will stop working in a year...  Which, if any, of the following
+    sources would you consult in order to figure out what you should do? (Please select
+    all that apply. If you would not consult any sources, please select the 'Not
+    applicable' option): AI/ ChatGPT"
+  PEN_Q15_944:
+    "For the following question, please imagine that you find out that
+    your boiler will stop working in a year...  Which, if any, of the following sources
+    would you consult in order to figure out what you should do? (Please select all
+    that apply. If you would not consult any sources, please select the 'Not applicable'
+    option): Not applicable - I would not consult any sources"
+  PEN_Q15_944_recoded:
+    "For the following question, please imagine that you find out
+    that your boiler will stop working in a year...  Which, if any, of the following
+    sources would you consult in order to figure out what you should do? (Please select
+    all that apply. If you would not consult any sources, please select the 'Not
+    applicable' option): Not applicable - I would not consult any sources"
+  PEN_Q15_955:
+    "For the following question, please imagine that you find out that
+    your boiler will stop working in a year...  Which, if any, of the following sources
+    would you consult in order to figure out what you should do? (Please select all
+    that apply. If you would not consult any sources, please select the 'Not applicable'
+    option): Other"
+  PEN_Q15_955_recoded:
+    "For the following question, please imagine that you find out
+    that your boiler will stop working in a year...  Which, if any, of the following
+    sources would you consult in order to figure out what you should do? (Please select
+    all that apply. If you would not consult any sources, please select the 'Not
+    applicable' option): Other"
+  PEN_Q15_977:
+    "For the following question, please imagine that you find out that
+    your boiler will stop working in a year...  Which, if any, of the following sources
+    would you consult in order to figure out what you should do? (Please select all
+    that apply. If you would not consult any sources, please select the 'Not applicable'
+    option): Don't know"
+  PEN_Q15_977_recoded:
+    "For the following question, please imagine that you find out
+    that your boiler will stop working in a year...  Which, if any, of the following
+    sources would you consult in order to figure out what you should do? (Please select
+    all that apply. If you would not consult any sources, please select the 'Not
+    applicable' option): Don't know"
+  PEN_Q15_government_recoded:
+    "For the following question, please imagine that you
+    find out that your boiler will stop working in a year...  Which, if any, of the
+    following sources would you consult in order to figure out what you should do?
+    (Please select all that apply. If you would not consult any sources, please select
+    the 'Not applicable' option): Government"
+  PEN_Q15_invalid_recoded:
+    "For the following question, please imagine that you find
+    out that your boiler will stop working in a year...  Which, if any, of the following
+    sources would you consult in order to figure out what you should do? (Please select
+    all that apply. If you would not consult any sources, please select the 'Not
+    applicable' option): Invalid response"
+  PEN_Q15_open1:
+    "For the following question, please imagine that you find out that
+    your boiler will stop working in a year...  Which, if any, of the following sources
+    would you consult in order to figure out what you should do? (Please select all
+    that apply. If you would not consult any sources, please select the 'Not applicable'
+    option): Which, if any, of the following sources would you consult in order to
+    figure out what you should do? -Other"
+  PEN_Q15_recoded_collapsed:
+    For the following question, please imagine that you find
+    out that your boiler will stop working in a year...  Which, if any, of the following
+    sources would you consult in order to figure out what you should do? (Please select
+    all that apply. If you would not consult any sources, please select the 'Not applicable'
+    option)
+  PEN_Q19:
+    On a different topic...  Which ONE of the following statements BEST describes
+    your feelings towards new technologies?
+  PEN_Q19_open1:
+    Which ONE of the following statements BEST describes your feelings
+    towards new technologies? -Other
+  PEN_Q20_1:
+    "We would now like to understand how you've used loans and financing
+    previously...  Which, if any, of the following have you ever taken out a loan
+    to pay for, or paid in instalments? (Please select all that apply): A mortgage"
+  PEN_Q20_2:
+    "We would now like to understand how you've used loans and financing
+    previously...  Which, if any, of the following have you ever taken out a loan
+    to pay for, or paid in instalments? (Please select all that apply): A car"
+  PEN_Q20_3:
+    "We would now like to understand how you've used loans and financing
+    previously...  Which, if any, of the following have you ever taken out a loan
+    to pay for, or paid in instalments? (Please select all that apply): Kitchen improvements"
+  PEN_Q20_4:
+    "We would now like to understand how you've used loans and financing
+    previously...  Which, if any, of the following have you ever taken out a loan
+    to pay for, or paid in instalments? (Please select all that apply): Bathroom improvements"
+  PEN_Q20_5:
+    "We would now like to understand how you've used loans and financing
+    previously...  Which, if any, of the following have you ever taken out a loan
+    to pay for, or paid in instalments? (Please select all that apply): Smaller purchases
+    (such as clothes or phones)"
+  PEN_Q20_6:
+    "We would now like to understand how you've used loans and financing
+    previously...  Which, if any, of the following have you ever taken out a loan
+    to pay for, or paid in instalments? (Please select all that apply): Home energy
+    improvements excluding heat pumps (such as insulation, new windows, or solar panels)"
+  PEN_Q20_7:
+    "We would now like to understand how you've used loans and financing
+    previously...  Which, if any, of the following have you ever taken out a loan
+    to pay for, or paid in instalments? (Please select all that apply): A heat pump"
+  PEN_Q20_8:
+    "We would now like to understand how you've used loans and financing
+    previously...  Which, if any, of the following have you ever taken out a loan
+    to pay for, or paid in instalments? (Please select all that apply): Home extensions"
+  PEN_Q20_966:
+    "We would now like to understand how you've used loans and financing
+    previously...  Which, if any, of the following have you ever taken out a loan
+    to pay for, or paid in instalments? (Please select all that apply): None of these"
+  PEN_Q20_977:
+    "We would now like to understand how you've used loans and financing
+    previously...  Which, if any, of the following have you ever taken out a loan
+    to pay for, or paid in instalments? (Please select all that apply): Don't know/
+    can't recall"
+  PEN_Q20_collapsed:
+    We would now like to understand how you've used loans and financing
+    previously...  Which, if any, of the following have you ever taken out a loan
+    to pay for, or paid in instalments? (Please select all that apply)
+  PEN_Q21_1:
+    "Thinking about the future...  For which, if any, of the following do
+    you think you will ever take out a loan to pay or pay any of the following in
+    instalments? (Please select all that apply): A mortgage"
+  PEN_Q21_2:
+    "Thinking about the future...  For which, if any, of the following do
+    you think you will ever take out a loan to pay or pay any of the following in
+    instalments? (Please select all that apply): A car"
+  PEN_Q21_3:
+    "Thinking about the future...  For which, if any, of the following do
+    you think you will ever take out a loan to pay or pay any of the following in
+    instalments? (Please select all that apply): Kitchen improvements"
+  PEN_Q21_4:
+    "Thinking about the future...  For which, if any, of the following do
+    you think you will ever take out a loan to pay or pay any of the following in
+    instalments? (Please select all that apply): Bathroom improvements"
+  PEN_Q21_5:
+    "Thinking about the future...  For which, if any, of the following do
+    you think you will ever take out a loan to pay or pay any of the following in
+    instalments? (Please select all that apply): Smaller purchases (such as clothes
+    or phones)"
+  PEN_Q21_6:
+    "Thinking about the future...  For which, if any, of the following do
+    you think you will ever take out a loan to pay or pay any of the following in
+    instalments? (Please select all that apply): Home energy improvements excluding
+    heat pumps (such as insulation, new windows, or solar panels)"
+  PEN_Q21_7:
+    "Thinking about the future...  For which, if any, of the following do
+    you think you will ever take out a loan to pay or pay any of the following in
+    instalments? (Please select all that apply): A heat pump"
+  PEN_Q21_8:
+    "Thinking about the future...  For which, if any, of the following do
+    you think you will ever take out a loan to pay or pay any of the following in
+    instalments? (Please select all that apply): Home extensions"
+  PEN_Q21_966:
+    "Thinking about the future...  For which, if any, of the following
+    do you think you will ever take out a loan to pay or pay any of the following
+    in instalments? (Please select all that apply): None of these"
+  PEN_Q21_977:
+    "Thinking about the future...  For which, if any, of the following
+    do you think you will ever take out a loan to pay or pay any of the following
+    in instalments? (Please select all that apply): Don't know"
+  PEN_Q21_collapsed:
+    Thinking about the future...  For which, if any, of the following
+    do you think you will ever take out a loan to pay or pay any of the following
+    in instalments? (Please select all that apply)
+  PEN_Q2Anew:
+    Which ONE of the following BEST describes the main type of central heating
+    at your home?
+  PEN_Q2_1:
+    "Central heating is a central system that generates heat for multiple\
+    \ rooms\u2026 What type of central heating does your home have? (Please select\
+    \ all that apply. If there is no central heating in your home, please select the\
+    \ \u2018Not applicable\u2019 option): Mains gas"
+  PEN_Q2_1_recoded:
+    "Central heating is a central system that generates heat for multiple\
+    \ rooms\u2026 What type of central heating does your home have? (Please select\
+    \ all that apply. If there is no central heating in your home, please select the\
+    \ \u2018Not applicable\u2019 option): Mains gas"
+  PEN_Q2_2:
+    "Central heating is a central system that generates heat for multiple\
+    \ rooms\u2026 What type of central heating does your home have? (Please select\
+    \ all that apply. If there is no central heating in your home, please select the\
+    \ \u2018Not applicable\u2019 option): Tank or bottled gas"
+  PEN_Q2_2_recoded:
+    "Central heating is a central system that generates heat for multiple\
+    \ rooms\u2026 What type of central heating does your home have? (Please select\
+    \ all that apply. If there is no central heating in your home, please select the\
+    \ \u2018Not applicable\u2019 option): Tank or bottled gas"
+  PEN_Q2_3:
+    "Central heating is a central system that generates heat for multiple\
+    \ rooms\u2026 What type of central heating does your home have? (Please select\
+    \ all that apply. If there is no central heating in your home, please select the\
+    \ \u2018Not applicable\u2019 option): Heat pump"
+  PEN_Q2_3_recoded:
+    "Central heating is a central system that generates heat for multiple\
+    \ rooms\u2026 What type of central heating does your home have? (Please select\
+    \ all that apply. If there is no central heating in your home, please select the\
+    \ \u2018Not applicable\u2019 option): Heat pump"
+  PEN_Q2_4:
+    "Central heating is a central system that generates heat for multiple\
+    \ rooms\u2026 What type of central heating does your home have? (Please select\
+    \ all that apply. If there is no central heating in your home, please select the\
+    \ \u2018Not applicable\u2019 option): Electric (all others excluding heat pump,\
+    \ including storage heaters)"
+  PEN_Q2_4_recoded:
+    "Central heating is a central system that generates heat for multiple\
+    \ rooms\u2026 What type of central heating does your home have? (Please select\
+    \ all that apply. If there is no central heating in your home, please select the\
+    \ \u2018Not applicable\u2019 option): Electric (all others excluding heat pump,\
+    \ including storage heaters)"
+  PEN_Q2_5:
+    "Central heating is a central system that generates heat for multiple\
+    \ rooms\u2026 What type of central heating does your home have? (Please select\
+    \ all that apply. If there is no central heating in your home, please select the\
+    \ \u2018Not applicable\u2019 option): Oil"
+  PEN_Q2_5_recoded:
+    "Central heating is a central system that generates heat for multiple\
+    \ rooms\u2026 What type of central heating does your home have? (Please select\
+    \ all that apply. If there is no central heating in your home, please select the\
+    \ \u2018Not applicable\u2019 option): Oil"
+  PEN_Q2_6:
+    "Central heating is a central system that generates heat for multiple\
+    \ rooms\u2026 What type of central heating does your home have? (Please select\
+    \ all that apply. If there is no central heating in your home, please select the\
+    \ \u2018Not applicable\u2019 option): Wood (e.g. logs, waste wood or pellets)"
+  PEN_Q2_6_recoded:
+    "Central heating is a central system that generates heat for multiple\
+    \ rooms\u2026 What type of central heating does your home have? (Please select\
+    \ all that apply. If there is no central heating in your home, please select the\
+    \ \u2018Not applicable\u2019 option): Wood (e.g. logs, waste wood or pellets)"
+  PEN_Q2_7:
+    "Central heating is a central system that generates heat for multiple\
+    \ rooms\u2026 What type of central heating does your home have? (Please select\
+    \ all that apply. If there is no central heating in your home, please select the\
+    \ \u2018Not applicable\u2019 option): Solid fuel (e.g. coal)"
+  PEN_Q2_7_recoded:
+    "Central heating is a central system that generates heat for multiple\
+    \ rooms\u2026 What type of central heating does your home have? (Please select\
+    \ all that apply. If there is no central heating in your home, please select the\
+    \ \u2018Not applicable\u2019 option): Solid fuel (e.g. coal)"
+  PEN_Q2_8:
+    "Central heating is a central system that generates heat for multiple\
+    \ rooms\u2026 What type of central heating does your home have? (Please select\
+    \ all that apply. If there is no central heating in your home, please select the\
+    \ \u2018Not applicable\u2019 option): Renewable energy (e.g. solar thermal)"
+  PEN_Q2_8_recoded:
+    "Central heating is a central system that generates heat for multiple\
+    \ rooms\u2026 What type of central heating does your home have? (Please select\
+    \ all that apply. If there is no central heating in your home, please select the\
+    \ \u2018Not applicable\u2019 option): Renewable energy (e.g. solar thermal)"
+  PEN_Q2_9:
+    "Central heating is a central system that generates heat for multiple\
+    \ rooms\u2026 What type of central heating does your home have? (Please select\
+    \ all that apply. If there is no central heating in your home, please select the\
+    \ \u2018Not applicable\u2019 option): District or communal heat network"
+  PEN_Q2_944:
+    "Central heating is a central system that generates heat for multiple\
+    \ rooms\u2026 What type of central heating does your home have? (Please select\
+    \ all that apply. If there is no central heating in your home, please select the\
+    \ \u2018Not applicable\u2019 option): Not applicable - There is no central heating\
+    \ in my home"
+  PEN_Q2_944_recoded:
+    "Central heating is a central system that generates heat for\
+    \ multiple rooms\u2026 What type of central heating does your home have? (Please\
+    \ select all that apply. If there is no central heating in your home, please select\
+    \ the \u2018Not applicable\u2019 option): Not applicable - There is no central\
+    \ heating in my home"
+  PEN_Q2_955:
+    "Central heating is a central system that generates heat for multiple\
+    \ rooms\u2026 What type of central heating does your home have? (Please select\
+    \ all that apply. If there is no central heating in your home, please select the\
+    \ \u2018Not applicable\u2019 option): Other"
+  PEN_Q2_955_recoded:
+    "Central heating is a central system that generates heat for\
+    \ multiple rooms\u2026 What type of central heating does your home have? (Please\
+    \ select all that apply. If there is no central heating in your home, please select\
+    \ the \u2018Not applicable\u2019 option): Other"
+  PEN_Q2_977:
+    "Central heating is a central system that generates heat for multiple\
+    \ rooms\u2026 What type of central heating does your home have? (Please select\
+    \ all that apply. If there is no central heating in your home, please select the\
+    \ \u2018Not applicable\u2019 option): Don't know"
+  PEN_Q2_977_recoded:
+    "Central heating is a central system that generates heat for\
+    \ multiple rooms\u2026 What type of central heating does your home have? (Please\
+    \ select all that apply. If there is no central heating in your home, please select\
+    \ the \u2018Not applicable\u2019 option): Don't know"
+  PEN_Q2_9_recoded:
+    "Central heating is a central system that generates heat for multiple\
+    \ rooms\u2026 What type of central heating does your home have? (Please select\
+    \ all that apply. If there is no central heating in your home, please select the\
+    \ \u2018Not applicable\u2019 option): District or communal heat network"
+  PEN_Q2_invalid_recoded:
+    "Central heating is a central system that generates heat\
+    \ for multiple rooms\u2026 What type of central heating does your home have? (Please\
+    \ select all that apply. If there is no central heating in your home, please select\
+    \ the \u2018Not applicable\u2019 option): Invalid response"
+  PEN_Q2_open1:
+    "Central heating is a central system that generates heat for multiple\
+    \ rooms\u2026 What type of central heating does your home have? (Please select\
+    \ all that apply. If there is no central heating in your home, please select the\
+    \ \u2018Not applicable\u2019 option): What type of central heating does you home\
+    \ have? -Other"
+  PEN_Q2_recoded_collapsed:
+    "Central heating is a central system that generates heat\
+    \ for multiple rooms\u2026 What type of central heating does your home have? (Please\
+    \ select all that apply. If there is no central heating in your home, please select\
+    \ the \u2018Not applicable\u2019 option)"
+  PEN_Q3_1:
+    "Which, if any, of the following does your home have? (Please select all
+    that apply): Private outdoor space"
+  PEN_Q3_10:
+    "Which, if any, of the following does your home have? (Please select
+    all that apply): A gas or oil boiler older than 10 years"
+  PEN_Q3_2:
+    "Which, if any, of the following does your home have? (Please select all
+    that apply): Electric Vehicle (EV)"
+  PEN_Q3_3:
+    "Which, if any, of the following does your home have? (Please select all
+    that apply): An EV charger"
+  PEN_Q3_4:
+    "Which, if any, of the following does your home have? (Please select all
+    that apply): A hot water cylinder"
+  PEN_Q3_5:
+    "Which, if any, of the following does your home have? (Please select all
+    that apply): Space for a hot water cylinder"
+  PEN_Q3_6:
+    "Which, if any, of the following does your home have? (Please select all
+    that apply): Underfloor heating (not electric)"
+  PEN_Q3_7:
+    "Which, if any, of the following does your home have? (Please select all
+    that apply): An induction hob"
+  PEN_Q3_8:
+    "Which, if any, of the following does your home have? (Please select all
+    that apply): Solar panels"
+  PEN_Q3_9:
+    "Which, if any, of the following does your home have? (Please select all
+    that apply): Home battery"
+  PEN_Q3_966:
+    "Which, if any, of the following does your home have? (Please select
+    all that apply): None of these"
+  PEN_Q3_977:
+    "Which, if any, of the following does your home have? (Please select
+    all that apply): Don't know"
+  PEN_Q3_collapsed:
+    Which, if any, of the following does your home have? (Please select
+    all that apply)
+  PEN_Q4:
+    Before taking this survey, had you ever heard of heat pumps as a home heating
+    system? (Please select the option that best applies)
+  PEN_Q5:
+    For the following questions, please imagine that in the next 5 years...(i.e.
+    from now till February 2030), you want to install a central heating system for
+    your home/ your current heating system needs replacing...A heat pump can heat
+    a home. An outside un
+  PEN_Q5Anew:
+    "Upgrading from a fossil fuel boiler to an air source heat pump can\
+    \ cost \xA312,000 for a typical home. Often smaller, modern homes cost a bit less\
+    \ and larger older homes a bit more. In England, Wales and Scotland, grants are\
+    \ available of up to \xA37,500 to lo"
+  PEN_Q5Bnew:
+    How willing, if at all, would you be to borrow funds from a mortgage
+    provider to fund the installation of low carbon heating (such as heat pumps) in
+    your home? (This could involve extending your existing mortgage or taking out
+    a small additional mortgage)
+  PEN_Q5Cnew:
+    How willing, if at all, would you be to take out unsecured borrowing
+    (e.g. via a personal loan or credit card) in order to fund the installation of
+    low carbon heating (such as heat pumps) in your home?
+  PEN_Q5Dnew:
+    How desirable, if at all, would buying a house that has a heat pump
+    be for you?
+  PEN_Q6: Before taking this survey, have you ever seen what a heat pump looks like?
+  PEN_Q7: Have you ever been to a home that has a heat pump?
+  PEN_Q8: Does anyone in your family, close friends or neighbours own a heat pump?
+  PEN_Q9:
+    Have you ever had a conversation with your family, close friends or neighbours
+    about installing a heat pump in your home?
+  Q_consent: Are you be willing to share your postcode with Experian for these purposes?
+  RecordNo: RecordNo
+  UK18_Sept_2020_f_0: "Keep criteria: keep"
+  UK18_Sept_2020_f_1: "Keep criteria: profilesocialgradeciewtrc not empty"
+  UK18_Sept_2020_f_2: "Keep criteria: profileeducationlevelrecode not empty"
+  UK18_Sept_2020_f_3: "Keep criteria: profileworkstatr not empty"
+  UK18_Sept_2020_f_4: "Keep criteria: profilehouseholdchildrenr not empty"
+  UK18_Sept_2020_f_5: "Keep criteria: profileworktype not empty"
+  UK18_Sept_2020_f_6: "Keep criteria: omnibusparentsrc3 not empty"
+  UK18_Sept_2020_f_7: "Keep criteria: age >= 18 & profilejulesage not empty"
+  UK18_Sept_2020_f_8: "Keep criteria: age >= 18 & profilebpcagesex not empty"
+  UK18_Sept_2020_f_9: "Keep criteria: age >= 18"
+  ethnicity_new:
+    What ethnic group best describes you? Please select one option only.
+    (We ask the question in this way so that it is consistent with Census definitions.)
+  gornewUK_1: "Region: North"
+  gornewUK_2: "Region: Midlands"
+  gornewUK_3: "Region: East"
+  gornewUK_4: "Region: London"
+  gornewUK_5: "Region: South"
+  gornewUK_6: "Region: England (NET)"
+  gornewUK_7: "Region: Wales"
+  gornewUK_8: "Region: Scotland"
+  gornewUK_9: "Region: Northern Ireland"
+  house_type:
+    Which, if any, of the following types of home best describes where you
+    currently live?
+  omnibus_parents_rc3_1: "Parent/Guardian: Parent/ guardian (any age)"
+  omnibus_parents_rc3_2: "Parent/Guardian: Not parent/ guardian"
+  omnibus_parents_rc3_3: "Parent/Guardian: 4 years and under"
+  omnibus_parents_rc3_4: "Parent/Guardian: 5 to 11 years"
+  omnibus_parents_rc3_5: "Parent/Guardian: 12 to 16 years"
+  omnibus_parents_rc3_6: "Parent/Guardian: 17 to 18 years"
+  omnibus_parents_rc3_7: "Parent/Guardian: 18 years and under"
+  omnibus_parents_rc3_8: "Parent/Guardian: Over 18 years"
+  omnibus_parents_rc3_collapsed: Parent/Guardian
+  pen_floorsize_ab_range:
+    Approximately, how large is the floor space in your home?
+    (Please type your answer in square metres in the box below. If you are unsure,
+    please give your best estimate)
+  profile_GOR: UK regions and countries lived in [calculated from postcode]
+  profile_education_level:
+    What is the highest educational or work-related qualification
+    you have?
+  profile_gender: Are you...?
+  profile_gross_household:
+    Gross HOUSEHOLD income is the combined income of all those
+    earners in a household from all sources, including wages, salaries, or rents and
+    before tax deductions. What is your gross household income?
+  profile_house_tenure: Do you own or rent the home in which you live?
+  profile_household_children_r_1: "Children in Household: 0"
+  profile_household_children_r_2: "Children in Household: 1"
+  profile_household_children_r_3: "Children in Household: 2"
+  profile_household_children_r_4: "Children in Household: 3+"
+  profile_household_children_r_5:
+    "Children in Household: ALL WITH CHILDREN IN HOUSEHOLD
+    (NET)"
+  profile_household_children_r_6: "Children in Household: Refused"
+  profile_household_size:
+    How many people, including yourself, are there in your household?
+    Please include both adults and children.
+  profile_julesage: Age
+  profile_marital_stat_r: Marital Status
+  profile_oslaua: Local authority / District / Unitary Authority
+  profile_socialgrade_cie_rc: Social Grade
+  profile_work_stat_r_1: "Working Status: Working full time"
+  profile_work_stat_r_2: "Working Status: Working part time"
+  profile_work_stat_r_3: "Working Status: ALL WORKERS (NET)"
+  profile_work_stat_r_4: "Working Status: Full time student"
+  profile_work_stat_r_5: "Working Status: Retired"
+  profile_work_stat_r_6: "Working Status: Unemployed"
+  profile_work_stat_r_7: "Working Status: Not working/ Other"
+  social_media_messaging_rc_1:
+    "Social Media/ Messaging service (within the last month):
+    Facebook"
+  social_media_messaging_rc_10:
+    "Social Media/ Messaging service (within the last
+    month): Skype"
+  social_media_messaging_rc_11:
+    "Social Media/ Messaging service (within the last
+    month): TikTok"
+  social_media_messaging_rc_2:
+    "Social Media/ Messaging service (within the last month):
+    X"
+  social_media_messaging_rc_3:
+    "Social Media/ Messaging service (within the last month):
+    LinkedIn"
+  social_media_messaging_rc_5:
+    "Social Media/ Messaging service (within the last month):
+    Pinterest"
+  social_media_messaging_rc_6:
+    "Social Media/ Messaging service (within the last month):
+    Instagram"
+  social_media_messaging_rc_7:
+    "Social Media/ Messaging service (within the last month):
+    Snapchat"
+  social_media_messaging_rc_8:
+    "Social Media/ Messaging service (within the last month):
+    Facebook Messenger"
+  social_media_messaging_rc_9:
+    "Social Media/ Messaging service (within the last month):
+    WhatsApp"
+  social_media_messaging_rc_collapsed:
+    Social Media/ Messaging service (within the
+    last month)
+  weight: weight
+raw_data_path:
+  /mnt/g/Shared drives/A Sustainable Future/1. Reducing household emissions/2.
+  Projects Research Work/51.Identifying the next 3 million heat pump owners/YouGov
+  survey data/SAV for Experian (Nesta Heat Pumps survey) 29 11.3.2025 - LABEL.xlsx
