@@ -8,7 +8,7 @@ def collapse_select_all(
     question_lookup: dict,
 ) -> pd.DataFrame:
     """
-    Collapses multiple boolean 'Aelect all that apply' columns into a single column
+    Collapses multiple boolean 'Select all that apply' columns into a single column
     containing a list of selected option labels based on a lookup dictionary.
 
     For each row, this function checks the specified columns for true values

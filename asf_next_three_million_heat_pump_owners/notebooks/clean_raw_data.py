@@ -1,24 +1,5 @@
-# -*- coding: utf-8 -*-
-# ---
-# jupyter:
-#   jupytext:
-#     cell_metadata_filter: -all
-#     comment_magics: true
-#     custom_cell_magics: kql
-#     text_representation:
-#       extension: .py
-#       format_name: percent
-#       format_version: '1.3'
-#       jupytext_version: 1.11.2
-#   kernelspec:
-#     display_name: asf_next_three_million_heat_pump_owners
-#     language: python
-#     name: python3
-# ---
-
 # %%
 import pandas as pd
-from numpy import int16
 from datetime import datetime
 import yaml
 
@@ -65,7 +46,7 @@ data.columns = data.columns.get_level_values(0)
 #     - Convert from int64 to int16
 
 # %%
-data["RecordNo"] = data["RecordNo"].astype(int16)
+data["RecordNo"] = data["RecordNo"].astype("int16")
 
 # %% [markdown]
 # #### Weights
@@ -104,7 +85,7 @@ data["profile_house_tenure"] = pd.Categorical(
         "Neither - I live rent-free with my parents, family or friends",
         "Other",
     ],
-    ordered=True,
+    ordered=False,
 )
 
 # %%
@@ -134,7 +115,7 @@ data["profile_GOR"] = pd.Categorical(
         "Scotland",
         "Northern Ireland",
     ],
-    ordered=True,
+    ordered=False,
 )
 
 # %%
@@ -205,7 +186,7 @@ data["ethnicity_new"] = pd.Categorical(
         "Any other ethnic group",  # Other ethnic group
         "Prefer not to say",
     ],
-    ordered=True,
+    ordered=False,
 )
 
 # %%
@@ -315,7 +296,7 @@ data["house_type"] = pd.Categorical(
         "Don't know",
         "Prefer not to say",
     ],
-    ordered=True,
+    ordered=False,
 )
 
 # %%
@@ -386,11 +367,13 @@ summary.create_single_question_summary_frame(data, "PEN_Bedrooms")
 # - Response type: Number and text strings
 # - Number of NA: 0
 # - Cleaning:
-#     - Convert all to strings
+#     - Convert to numeric, set DK to missing.
 
 # %%
-# Convert all to strings
-data["PEN_Floorsize_AB"] = data["PEN_Floorsize_AB"].map(str)
+# Set DK to missing an convert to numeric data type
+data["PEN_Floorsize_AB"] = pd.to_numeric(
+    data["PEN_Floorsize_AB"], errors="coerce"
+).astype("Int64")
 
 # %% [markdown]
 # "pen_floorsize_ab_range"
@@ -452,7 +435,7 @@ summary.create_single_question_summary_frame(data, "pen_floorsize_ab_range")
 pen_q2_options = [option for option in code_question_lookup.keys() if "Q2_" in option]
 for option in pen_q2_options:
     code_question_lookup[option] = (
-        "Central heating is a central system that generates heat for multiple rooms… What type of central heating does your home have? (Please select all that apply. If there is no central heating in your home, please select the ‘Not applicable’ option): "
+        "Central heating is a central system that generates heat for multiple rooms… What type of central heating does your home have? (Please select all that apply. If there is no central heating in your home, please select the 'Not applicable' option): "
         + code_question_lookup.get(option)
     )
 
@@ -460,7 +443,7 @@ for option in pen_q2_options:
 # Convert to boolean
 for option in pen_q2_options:
     if option != "PEN_Q2_open1":
-        data[option] = data[option].map({"Yes": True, "No": False}).astype(bool)
+        data[option] = data[option].map({"Yes": True, "No": False})
     else:
         data[option] = data[option].map(str)
 
@@ -887,7 +870,7 @@ data["PEN_Q1"] = pd.Categorical(
         "No, it does not",
         "Don't know",
     ],
-    ordered=True,
+    ordered=False,
 )
 
 # %%
@@ -974,7 +957,7 @@ data["PEN_Q2Anew"] = pd.Categorical(
         "Don't know",
         "Not applicable - There is no central heating in my home",
     ],
-    ordered=True,
+    ordered=False,
 )
 
 # %%
@@ -1037,7 +1020,7 @@ for option in pen_q3_options:
 # %%
 # Convert to boolean
 for option in pen_q3_options:
-    data[option] = data[option].map({"Yes": True, "No": False}).astype(bool)
+    data[option] = data[option].map({"Yes": True, "No": False})
 
 # %%
 # Collapse options to a single column
@@ -1051,31 +1034,29 @@ code_question_lookup["PEN_Q3_collapsed"] = (
 )
 
 # %%
-q3_counts = {}
+summary_rows = []
 for col in pen_q3_options:
-    counts = data[col].value_counts()
-    q3_counts[col] = {
-        "Counts: True": counts.get(True),
-        "Counts: False": counts.get(False),
-    }
+    temp = (
+        pd.Series(pd.Categorical(data[col], [True, False]), name=col)
+        .to_frame()
+        .assign(weight=data["weight"])
+    )
 
-q3_counts_df = pd.DataFrame(q3_counts).T
-q3_counts_df["Percentage of respondents: True"] = (
-    q3_counts_df["Counts: True"] / len(data)
-) * 100
-q3_counts_df["Percentage of respondents: False"] = (
-    q3_counts_df["Counts: False"] / len(data)
-) * 100
-q3_counts_df[
-    ["Percentage of respondents: True", "Percentage of respondents: False"]
-] = q3_counts_df[
-    ["Percentage of respondents: True", "Percentage of respondents: False"]
-].round(
-    2
-)
-q3_counts_df["Option"] = (
-    q3_counts_df.index.map(code_question_lookup).str.split(":").str[1]
-)
+    summary_rows.append(
+        summary.create_single_question_summary_frame(temp, col)
+        .reset_index()
+        .melt(id_vars="index")
+        .assign(
+            column=lambda df: df["index"].astype(str).str.cat(df["variable"], sep="_")
+        )
+        .loc[:, ["column", "value"]]
+        .set_index("column")
+        .T.reset_index(drop=True)
+        .rename_axis(None, axis=1)
+        .rename(index={0: col})
+    )
+
+q3_counts_df = pd.concat(summary_rows)
 q3_counts_df
 
 # %% [markdown]
@@ -1098,7 +1079,7 @@ data["PEN_Q4"] = pd.Categorical(
         "I have never heard of heat pumps",
         "Not asked",
     ],
-    ordered=True,
+    ordered=False,
 )
 
 # %%
@@ -1124,7 +1105,7 @@ data["PEN_Q6"] = pd.Categorical(
         "Don't know/ can't recall",
         "Not asked",
     ],
-    ordered=True,
+    ordered=False,
 )
 
 # %%
@@ -1150,7 +1131,7 @@ data["PEN_Q7"] = pd.Categorical(
         "Don't know/ can't recall",
         "Not asked",
     ],
-    ordered=True,
+    ordered=False,
 )
 
 # %%
@@ -1176,7 +1157,7 @@ data["PEN_Q8"] = pd.Categorical(
         "Don't know",
         "Not asked",
     ],
-    ordered=True,
+    ordered=False,
 )
 
 # %%
@@ -1202,7 +1183,7 @@ data["PEN_Q9"] = pd.Categorical(
         "Don't know",
         "Not asked",
     ],
-    ordered=True,
+    ordered=False,
 )
 
 # %%
@@ -1409,7 +1390,7 @@ data["PEN_Q12"] = pd.Categorical(
         "Not applicable - There is no specific barrier towards installing a heat pump in my home",
         "Not asked",
     ],
-    ordered=True,
+    ordered=False,
 )
 
 # %%
@@ -1490,7 +1471,7 @@ data["PEN_Q14"] = pd.Categorical(
         "Not applicable - I would never get a heat pump installed in my home",
         "Not asked",
     ],
-    ordered=True,
+    ordered=False,
 )
 
 # %%
@@ -1806,31 +1787,29 @@ code_question_lookup["PEN_Q10new_collapsed"] = (
 )
 
 # %%
-q10_counts = {}
+summary_rows = []
 for col in pen_q10_options:
-    counts = data[col].value_counts()
-    q10_counts[col] = {
-        "Counts: True": counts.get(True),
-        "Counts: False": counts.get(False),
-    }
+    temp = (
+        pd.Series(pd.Categorical(data[col], [True, False]), name=col)
+        .to_frame()
+        .assign(weight=data["weight"])
+    )
 
-q10_counts_df = pd.DataFrame(q10_counts).T
-q10_counts_df["Percentage of respondents: True"] = (
-    q10_counts_df["Counts: True"] / len(data)
-) * 100
-q10_counts_df["Percentage of respondents: False"] = (
-    q10_counts_df["Counts: False"] / len(data)
-) * 100
-q10_counts_df[
-    ["Percentage of respondents: True", "Percentage of respondents: False"]
-] = q10_counts_df[
-    ["Percentage of respondents: True", "Percentage of respondents: False"]
-].round(
-    2
-)
-q10_counts_df["Option"] = (
-    q10_counts_df.index.map(code_question_lookup).str.split(":").str[1]
-)
+    summary_rows.append(
+        summary.create_single_question_summary_frame(temp, col)
+        .reset_index()
+        .melt(id_vars="index")
+        .assign(
+            column=lambda df: df["index"].astype(str).str.cat(df["variable"], sep="_")
+        )
+        .loc[:, ["column", "value"]]
+        .set_index("column")
+        .T.reset_index(drop=True)
+        .rename_axis(None, axis=1)
+        .rename(index={0: col})
+    )
+
+q10_counts_df = pd.concat(summary_rows)
 q10_counts_df
 
 # %% [markdown]
@@ -1850,7 +1829,7 @@ data["PEN_Q19"] = pd.Categorical(
         "Other",
         "Don't know",
     ],
-    ordered=True,
+    ordered=False,
 )
 
 # %%
@@ -2064,7 +2043,7 @@ data["Consent_1_recoded"] = data["Consent_1_recoded"].apply(
 data["profile_gender"] = pd.Categorical(
     data["profile_gender"],
     categories=["Male", "Female"],
-    ordered=True,
+    ordered=False,
 )
 
 # %%
@@ -2192,7 +2171,7 @@ data["profile_marital_stat_r"] = pd.Categorical(
         "Widowed",
         "Never Married",
     ],
-    ordered=True,
+    ordered=False,
 )
 
 # %%
