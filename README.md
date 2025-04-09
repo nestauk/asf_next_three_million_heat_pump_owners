@@ -1,4 +1,10 @@
-# asf_next_three_million_heat_pump_owners
+# ASF Identifying the next 3 million heat pump owners: Survey analysis
+
+This repo contains the code used to clean and analyse survey data on the housing and household characteristics, current heating system, views on heat pumps and future heating system considerations of a representative sample of the UK population.
+
+The survey was conducted by YouGov as part of Nesta's project on gaining a better understanding of current and future heat pump owners, where Nesta has commissioned Experian to produce geodemographic segments specific to heat pump adoption.
+
+Read more about the project [here](https://www.nesta.org.uk/project/identifying-the-next-3-million-heat-pump-owners/).
 
 ## Setup
 
