@@ -470,126 +470,126 @@ code_question_lookup:
     "Central heating is a central system that generates heat for multiple\
     \ rooms\u2026 What type of central heating does your home have? (Please select\
     \ all that apply. If there is no central heating in your home, please select the\
-    \ \u2018Not applicable\u2019 option): Mains gas"
+    \ 'Not applicable' option): Mains gas"
   PEN_Q2_1_recoded:
     "Central heating is a central system that generates heat for multiple\
     \ rooms\u2026 What type of central heating does your home have? (Please select\
     \ all that apply. If there is no central heating in your home, please select the\
-    \ \u2018Not applicable\u2019 option): Mains gas"
+    \ 'Not applicable' option): Mains gas"
   PEN_Q2_2:
     "Central heating is a central system that generates heat for multiple\
     \ rooms\u2026 What type of central heating does your home have? (Please select\
     \ all that apply. If there is no central heating in your home, please select the\
-    \ \u2018Not applicable\u2019 option): Tank or bottled gas"
+    \ 'Not applicable' option): Tank or bottled gas"
   PEN_Q2_2_recoded:
     "Central heating is a central system that generates heat for multiple\
     \ rooms\u2026 What type of central heating does your home have? (Please select\
     \ all that apply. If there is no central heating in your home, please select the\
-    \ \u2018Not applicable\u2019 option): Tank or bottled gas"
+    \ 'Not applicable' option): Tank or bottled gas"
   PEN_Q2_3:
     "Central heating is a central system that generates heat for multiple\
     \ rooms\u2026 What type of central heating does your home have? (Please select\
     \ all that apply. If there is no central heating in your home, please select the\
-    \ \u2018Not applicable\u2019 option): Heat pump"
+    \ 'Not applicable' option): Heat pump"
   PEN_Q2_3_recoded:
     "Central heating is a central system that generates heat for multiple\
     \ rooms\u2026 What type of central heating does your home have? (Please select\
     \ all that apply. If there is no central heating in your home, please select the\
-    \ \u2018Not applicable\u2019 option): Heat pump"
+    \ 'Not applicable' option): Heat pump"
   PEN_Q2_4:
     "Central heating is a central system that generates heat for multiple\
     \ rooms\u2026 What type of central heating does your home have? (Please select\
     \ all that apply. If there is no central heating in your home, please select the\
-    \ \u2018Not applicable\u2019 option): Electric (all others excluding heat pump,\
-    \ including storage heaters)"
+    \ 'Not applicable' option): Electric (all others excluding heat pump, including\
+    \ storage heaters)"
   PEN_Q2_4_recoded:
     "Central heating is a central system that generates heat for multiple\
     \ rooms\u2026 What type of central heating does your home have? (Please select\
     \ all that apply. If there is no central heating in your home, please select the\
-    \ \u2018Not applicable\u2019 option): Electric (all others excluding heat pump,\
-    \ including storage heaters)"
+    \ 'Not applicable' option): Electric (all others excluding heat pump, including\
+    \ storage heaters)"
   PEN_Q2_5:
     "Central heating is a central system that generates heat for multiple\
     \ rooms\u2026 What type of central heating does your home have? (Please select\
     \ all that apply. If there is no central heating in your home, please select the\
-    \ \u2018Not applicable\u2019 option): Oil"
+    \ 'Not applicable' option): Oil"
   PEN_Q2_5_recoded:
     "Central heating is a central system that generates heat for multiple\
     \ rooms\u2026 What type of central heating does your home have? (Please select\
     \ all that apply. If there is no central heating in your home, please select the\
-    \ \u2018Not applicable\u2019 option): Oil"
+    \ 'Not applicable' option): Oil"
   PEN_Q2_6:
     "Central heating is a central system that generates heat for multiple\
     \ rooms\u2026 What type of central heating does your home have? (Please select\
     \ all that apply. If there is no central heating in your home, please select the\
-    \ \u2018Not applicable\u2019 option): Wood (e.g. logs, waste wood or pellets)"
+    \ 'Not applicable' option): Wood (e.g. logs, waste wood or pellets)"
   PEN_Q2_6_recoded:
     "Central heating is a central system that generates heat for multiple\
     \ rooms\u2026 What type of central heating does your home have? (Please select\
     \ all that apply. If there is no central heating in your home, please select the\
-    \ \u2018Not applicable\u2019 option): Wood (e.g. logs, waste wood or pellets)"
+    \ 'Not applicable' option): Wood (e.g. logs, waste wood or pellets)"
   PEN_Q2_7:
     "Central heating is a central system that generates heat for multiple\
     \ rooms\u2026 What type of central heating does your home have? (Please select\
     \ all that apply. If there is no central heating in your home, please select the\
-    \ \u2018Not applicable\u2019 option): Solid fuel (e.g. coal)"
+    \ 'Not applicable' option): Solid fuel (e.g. coal)"
   PEN_Q2_7_recoded:
     "Central heating is a central system that generates heat for multiple\
     \ rooms\u2026 What type of central heating does your home have? (Please select\
     \ all that apply. If there is no central heating in your home, please select the\
-    \ \u2018Not applicable\u2019 option): Solid fuel (e.g. coal)"
+    \ 'Not applicable' option): Solid fuel (e.g. coal)"
   PEN_Q2_8:
     "Central heating is a central system that generates heat for multiple\
     \ rooms\u2026 What type of central heating does your home have? (Please select\
     \ all that apply. If there is no central heating in your home, please select the\
-    \ \u2018Not applicable\u2019 option): Renewable energy (e.g. solar thermal)"
+    \ 'Not applicable' option): Renewable energy (e.g. solar thermal)"
   PEN_Q2_8_recoded:
     "Central heating is a central system that generates heat for multiple\
     \ rooms\u2026 What type of central heating does your home have? (Please select\
     \ all that apply. If there is no central heating in your home, please select the\
-    \ \u2018Not applicable\u2019 option): Renewable energy (e.g. solar thermal)"
+    \ 'Not applicable' option): Renewable energy (e.g. solar thermal)"
   PEN_Q2_9:
     "Central heating is a central system that generates heat for multiple\
     \ rooms\u2026 What type of central heating does your home have? (Please select\
     \ all that apply. If there is no central heating in your home, please select the\
-    \ \u2018Not applicable\u2019 option): District or communal heat network"
+    \ 'Not applicable' option): District or communal heat network"
   PEN_Q2_944:
     "Central heating is a central system that generates heat for multiple\
     \ rooms\u2026 What type of central heating does your home have? (Please select\
     \ all that apply. If there is no central heating in your home, please select the\
-    \ \u2018Not applicable\u2019 option): Not applicable - There is no central heating\
-    \ in my home"
+    \ 'Not applicable' option): Not applicable - There is no central heating in my\
+    \ home"
   PEN_Q2_944_recoded:
     "Central heating is a central system that generates heat for\
     \ multiple rooms\u2026 What type of central heating does your home have? (Please\
     \ select all that apply. If there is no central heating in your home, please select\
-    \ the \u2018Not applicable\u2019 option): Not applicable - There is no central\
-    \ heating in my home"
+    \ the 'Not applicable' option): Not applicable - There is no central heating in\
+    \ my home"
   PEN_Q2_955:
     "Central heating is a central system that generates heat for multiple\
     \ rooms\u2026 What type of central heating does your home have? (Please select\
     \ all that apply. If there is no central heating in your home, please select the\
-    \ \u2018Not applicable\u2019 option): Other"
+    \ 'Not applicable' option): Other"
   PEN_Q2_955_recoded:
     "Central heating is a central system that generates heat for\
     \ multiple rooms\u2026 What type of central heating does your home have? (Please\
     \ select all that apply. If there is no central heating in your home, please select\
-    \ the \u2018Not applicable\u2019 option): Other"
+    \ the 'Not applicable' option): Other"
   PEN_Q2_977:
     "Central heating is a central system that generates heat for multiple\
     \ rooms\u2026 What type of central heating does your home have? (Please select\
     \ all that apply. If there is no central heating in your home, please select the\
-    \ \u2018Not applicable\u2019 option): Don't know"
+    \ 'Not applicable' option): Don't know"
   PEN_Q2_977_recoded:
     "Central heating is a central system that generates heat for\
     \ multiple rooms\u2026 What type of central heating does your home have? (Please\
     \ select all that apply. If there is no central heating in your home, please select\
-    \ the \u2018Not applicable\u2019 option): Don't know"
+    \ the 'Not applicable' option): Don't know"
   PEN_Q2_9_recoded:
     "Central heating is a central system that generates heat for multiple\
     \ rooms\u2026 What type of central heating does your home have? (Please select\
     \ all that apply. If there is no central heating in your home, please select the\
-    \ \u2018Not applicable\u2019 option): District or communal heat network"
+    \ 'Not applicable' option): District or communal heat network"
   PEN_Q2_invalid_recoded:
     "Central heating is a central system that generates heat\
     \ for multiple rooms\u2026 What type of central heating does your home have? (Please\
@@ -599,8 +599,7 @@ code_question_lookup:
     "Central heating is a central system that generates heat for multiple\
     \ rooms\u2026 What type of central heating does your home have? (Please select\
     \ all that apply. If there is no central heating in your home, please select the\
-    \ \u2018Not applicable\u2019 option): What type of central heating does you home\
-    \ have? -Other"
+    \ 'Not applicable' option): What type of central heating does you home have? -Other"
   PEN_Q2_recoded_collapsed:
     "Central heating is a central system that generates heat\
     \ for multiple rooms\u2026 What type of central heating does your home have? (Please\
