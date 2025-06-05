@@ -14,7 +14,8 @@ def create_stacked_horizontal_bar_chart(
     """
     Creates a stacked horizontal bar chart from a DataFrame, with percentage labels displayed on each segment.
     """
-    ax = df.plot(kind="barh", stacked=True, figsize=figsize, colormap="Dark2")
+    fig, ax = plt.subplots(figsize=figsize, layout="constrained")
+    df.plot(kind="barh", stacked=True, colormap="Dark2", ax=ax)
     ax.set_xlabel(xlabel, fontsize=fontsize)
     ax.set_ylabel(ylabel, fontsize=fontsize)
     ax.tick_params(axis="x", labelsize=fontsize)
@@ -38,8 +39,7 @@ def create_stacked_horizontal_bar_chart(
                 fontsize=fontsize,
                 color="white",
             )
-    plt.tight_layout()
-    return plt
+    return fig
 
 
 # --- Summarising single questions ---

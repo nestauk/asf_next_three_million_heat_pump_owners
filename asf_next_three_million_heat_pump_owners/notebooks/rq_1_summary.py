@@ -1434,7 +1434,7 @@ else:
     )
 
 # %% [markdown]
-# ## Summarising the effects of prior knowledge/experiences
+# ## Summarising the association with prior knowledge/experiences
 
 # %% [markdown]
 # **Know what they are**
@@ -1442,31 +1442,31 @@ else:
 # - Have heard of but don't know what they are: 46% vs. 38%
 # - Never heard of: 35% vs. 31%
 #
-# *Knowing what they are does not lead to a greater likelihood of considering.*
+# *No observed association between knowing what a heat pump is and the likelihood of considering one.*
 #
 # **Have seen one**
 # - Seen: 42% vs. 53%
 # - Not seen: 47% vs. 39%
 #
-# *Having seen one does not lead to a greater likelihood of considering.*
+# *No observed association between having seen a heat pump and the likelihood of considering one.*
 #
 # **Been to a home with one**
 # - Been: 51% vs. 45%
 # - Not been: 41% vs. 50%
 #
-# *Having been to a home with a heat pump does lead to a greater likelihood of considering.*
+# *Association observed between having been to a home with a heat pump and the likelihood of considering.*
 #
 # **Family/friends/neighbours have one**
 # - Have: 58% vs. 40%
 # - Don't have: 41% vs. 51%
 #
-# *Having family/friends/neighbours with a heat pump does lead to a greater likelihood of considering.*
+# *Association observed between having family/friends/neighbours with a heat pump and the likelihood of considering.*
 #
 # **Have had a conversation about installing one**
 # - Have: 57% vs. 40%
 # - Haven't: 41% vs. 48%
 #
-# *Having a conversation with family/friends/neighbours about installing a heat pump does lead to a greater likelihood of considering.*
+# *Association observed between having had a conversation with family/friends/neighbours about installing a heat pump and the likelihood of considering.*
 #
 
 # %% [markdown]
