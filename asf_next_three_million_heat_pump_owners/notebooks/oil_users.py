@@ -294,3 +294,18 @@ filtered = oil_group[
 
 # %%
 summary.create_single_question_summary_frame(filtered, "PEN_Q9")
+
+# %% [markdown]
+# PEN_Q14:
+#     Which ONE of the following benefits about heat pumps is MOST likely to
+#     encourage you to install a heat pump in your home in the future?
+
+# %%
+filtered = oil_group[
+    oil_group["PEN_Q14"] != "Not asked"
+]  # respondents who are not homeowners, not asked
+
+# %%
+summary.create_single_question_summary_frame(filtered, "PEN_Q14")
+
+# %%
