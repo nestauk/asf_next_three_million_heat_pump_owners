@@ -1132,3 +1132,167 @@ for experience in hp_experience_lookup.keys():
             print(
                 f"{experience}: A chi-squared test of independence showed no significant relationship between income group and response (χ²({dof}) = {chi2_stat:.2f}, p = {p_val:.2e})."
             )
+
+# %% [markdown]
+# ## RQ 5. By age
+
+# %% [markdown]
+# - Any experience
+
+# %%
+# Create any experience response breakdown by age table for the UK
+hp_experience_age_tables = {}
+
+# Counts
+hp_experience_age_tables["counts"] = pd.crosstab(
+    index=q6_base_data["profile_julesage"],
+    columns=q6_base_data["hp_experience_any"],
+    values=q6_base_data["weight"],
+    aggfunc="sum",
+    margins=True,
+    margins_name="Total",
+)
+
+# Proportions
+hp_experience_age_tables["proportions"] = pd.crosstab(
+    index=q6_base_data["profile_julesage"],
+    columns=q6_base_data["hp_experience_any"],
+    values=q6_base_data["weight"],
+    aggfunc="sum",
+    normalize="index",
+)
+hp_experience_age_tables["proportions"]["Total"] = hp_experience_age_tables[
+    "proportions"
+].sum(axis=1)
+hp_experience_age_tables["proportions"] = (
+    hp_experience_age_tables["proportions"] * 100
+).round(1)
+
+# %%
+hp_experience_age_tables["proportions"]
+
+# %% [markdown]
+# - PEN_Q6: Before taking this survey, have you ever seen what a heat pump looks like?
+
+# %%
+# Create Q6 response breakdown by age table for the UK
+q6_age_tables = {}
+
+# Counts
+q6_age_tables["counts"] = pd.crosstab(
+    index=q6_base_data["profile_julesage"],
+    columns=q6_base_data["PEN_Q6"],
+    values=q6_base_data["weight"],
+    aggfunc="sum",
+    margins=True,
+    margins_name="Total",
+)
+
+# Proportions
+q6_age_tables["proportions"] = pd.crosstab(
+    index=q6_base_data["profile_julesage"],
+    columns=q6_base_data["PEN_Q6"],
+    values=q6_base_data["weight"],
+    aggfunc="sum",
+    normalize="index",
+)
+q6_age_tables["proportions"]["Total"] = q6_age_tables["proportions"].sum(axis=1)
+q6_age_tables["proportions"] = (q6_age_tables["proportions"] * 100).round(1)
+
+# %%
+q6_age_tables["proportions"]
+
+# %% [markdown]
+# - PEN_Q7: Have you ever been to a home that has a heat pump?
+
+# %%
+# Create Q7 response breakdown by age table for the UK
+q7_age_tables = {}
+
+# Counts
+q7_age_tables["counts"] = pd.crosstab(
+    index=q6_base_data["profile_julesage"],
+    columns=q6_base_data["PEN_Q7"],
+    values=q6_base_data["weight"],
+    aggfunc="sum",
+    margins=True,
+    margins_name="Total",
+)
+
+# Proportions
+q7_age_tables["proportions"] = pd.crosstab(
+    index=q6_base_data["profile_julesage"],
+    columns=q6_base_data["PEN_Q7"],
+    values=q6_base_data["weight"],
+    aggfunc="sum",
+    normalize="index",
+)
+q7_age_tables["proportions"]["Total"] = q7_age_tables["proportions"].sum(axis=1)
+q7_age_tables["proportions"] = (q7_age_tables["proportions"] * 100).round(1)
+
+# %%
+q7_age_tables["proportions"]
+
+# %% [markdown]
+# - PEN_Q8: Does anyone in your family, close friends or neighbours own a heat pump?
+
+# %%
+# Create Q8 response breakdown by age table for the UK
+q8_age_tables = {}
+
+# Counts
+q8_age_tables["counts"] = pd.crosstab(
+    index=q6_base_data["profile_julesage"],
+    columns=q6_base_data["PEN_Q8"],
+    values=q6_base_data["weight"],
+    aggfunc="sum",
+    margins=True,
+    margins_name="Total",
+)
+
+# Proportions
+q8_age_tables["proportions"] = pd.crosstab(
+    index=q6_base_data["profile_julesage"],
+    columns=q6_base_data["PEN_Q8"],
+    values=q6_base_data["weight"],
+    aggfunc="sum",
+    normalize="index",
+)
+q8_age_tables["proportions"]["Total"] = q8_age_tables["proportions"].sum(axis=1)
+q8_age_tables["proportions"] = (q8_age_tables["proportions"] * 100).round(1)
+
+# %%
+q8_age_tables["proportions"]
+
+# %% [markdown]
+# - PEN_Q9: Have you ever had a conversation with your family, close friends or neighbours about installing a heat pump in your home?
+
+# %%
+# Create Q9 response breakdown by age table for the UK
+q9_age_tables = {}
+
+# Counts
+q9_age_tables["counts"] = pd.crosstab(
+    index=q6_base_data["profile_julesage"],
+    columns=q6_base_data["PEN_Q9"],
+    values=q6_base_data["weight"],
+    aggfunc="sum",
+    margins=True,
+    margins_name="Total",
+)
+
+# Proportions
+q9_age_tables["proportions"] = pd.crosstab(
+    index=q6_base_data["profile_julesage"],
+    columns=q6_base_data["PEN_Q9"],
+    values=q6_base_data["weight"],
+    aggfunc="sum",
+    normalize="index",
+)
+q9_age_tables["proportions"]["Total"] = q9_age_tables["proportions"].sum(axis=1)
+q9_age_tables["proportions"] = (q9_age_tables["proportions"] * 100).round(1)
+
+# %%
+q9_age_tables["proportions"]
+
+# %%
